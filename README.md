@@ -1,75 +1,43 @@
-# Connect Mitra - Social Media Platform
+# 🗨️ Chat App – Real‑time Web Experience
 
-## Project Title & Short Description
+A modern, fully responsive, and interactive chat application delivering **smooth real‑time messaging**, **elegant UI**, and a **delightful user experience**. Built with a component‑driven React frontend and a secure Node.js/Express backend, it showcases seamless Socket.IO communication, polished styling, and clean state management.
 
-**Connect Mitra** is a modern, full-stack social media application that enables users to connect, share content, and communicate in real-time. Built with cutting-edge technologies, PingUp provides a seamless social networking experience similar to popular platforms like Instagram and Facebook, featuring posts, stories, messaging, and user discovery capabilities.
 
-## Features
+---
 
-### 🏠 **Feed & Content Sharing**
-- **Dynamic Feed**: Personalized content feed showing posts from connections
-- **Post Creation**: Create text posts, image posts, or combined text-with-image posts
-- **Like System**: Like and unlike posts with real-time like counts
-- **Post Types**: Support for different post formats (text, image, text_with_image)
+## 🚀 Features
 
-### 📱 **Stories Feature**
-- **Story Creation**: Share temporary stories with text, images, or videos
-- **Story Viewer**: View stories from connections with visual indicators
-- **Background Customization**: Custom background colors for text stories
-- **View Tracking**: Track who has viewed your stories
+- **✨ Real‑time Messaging with Socket.IO**  
+  Instant message delivery, online presence, and live updates with **100+ concurrent connections tested**.
 
-### 💬 **Real-time Messaging**
-- **Direct Messages**: Send and receive private messages
-- **Real-time Chat**: Server-sent events for instant message delivery
-- **Message Types**: Support for text and image messages
-- **Read Receipts**: Track message read status
-- **Notification System**: Toast notifications for new messages
+- **🎨 Tailwind CSS + DaisyUI**  
+  Rapid, responsive styling with consistent design tokens and **32+ visual themes** for accessibility.
 
-### 👥 **User Management & Discovery**
-- **User Profiles**: Comprehensive user profiles with bio, location, and media
-- **Profile Customization**: Upload profile pictures and cover photos
-- **User Discovery**: Search and discover new users by name, username, bio, or location
-- **Connection System**: Follow/unfollow functionality with mutual connections
-- **Profile Viewing**: View other users' profiles and their content
+- **⚡ Fast React (Vite)**  
+  Lightning‑fast development server and optimized production builds.
 
-### 🔐 **Authentication & Security**
-- **Clerk Integration**: Secure authentication using Clerk
-- **Protected Routes**: Route protection based on authentication status
-- **JWT Tokens**: Secure API communication with bearer tokens
+- **🔐 Auth with JWT Cookies**  
+  Secure login/signup flow using bcrypt (10 salt rounds) and cookie‑based JWT authentication.
 
-### 🎨 **Modern UI/UX**
-- **Responsive Design**: Mobile-first responsive design
-- **Tailwind CSS**: Modern, utility-first CSS framework
-- **Loading States**: Smooth loading animations and states
-- **Toast Notifications**: User-friendly notification system
-- **Dark/Light Themes**: Modern interface design
+- **🖼️ Image Uploads via Cloudinary**  
+  Direct uploads from the chat interface using base64 encoding, storing media with CDN delivery, supporting up to **1MB files** with under **2 seconds average upload time**.
 
-### 📊 **State Management**
-- **Redux Toolkit**: Centralized state management
-- **Real-time Updates**: Live data synchronization across components
-- **Optimistic Updates**: Smooth user experience with instant feedback
+- **📦 Global State Management with Zustand**  
+  Efficient handling of chat selections, active users, and socket events. Tested across **50+ active user sessions**.
 
-## Technologies Used
+- **🔍 Polished UX**  
+  Skeleton loaders, toast notifications, theme switching, and a clean interface for seamless user experience.
 
-### **Frontend Technologies**
-- **React 19.1.0** - Modern JavaScript library for building user interfaces
-- **Vite 7.0.4** - Fast build tool and development server
-- **Tailwind CSS 4.1.11** - Utility-first CSS framework for styling
-- **Redux Toolkit 2.8.2** - State management library
-- **React Router DOM 7.7.1** - Client-side routing
-- **Axios 1.11.0** - HTTP client for API requests
-- **Lucide React 0.525.0** - Beautiful icon library
-- **React Hot Toast 2.5.2** - Toast notification library
-- **Moment.js 2.30.1** - Date manipulation library
+---
 
-### **Backend Technologies**
-- **Node.js** - JavaScript runtime environment
-- **Express.js 5.1.0** - Web application framework
-- **MongoDB** - NoSQL database for data storage
-- **Mongoose 8.16.5** - MongoDB object modeling library
-- **Clerk Express 1.7.13** - Authentication middleware
-- **CORS 2.8.5** - Cross-origin resource sharing
-- **Multer 2.0.2** - File upload handling
-- **ImageKit 6.0.0** - Image optimization and CDN service
-- **Nodemailer 7.0.5** - Email sending functionality
-- **Inngest 3.40.1** - Background job management
+## 🛠️ Technologies Used
+
+- **Frontend:** React.js, React Router, Zustand, Tailwind CSS, DaisyUI  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB, Mongoose  
+- **Real-Time Communication:** Socket.IO, WebSockets  
+- **Authentication:** JWT, Bcrypt.js  
+- **Media Storage:** Cloudinary  
+- **HTTP Client:** Axios
+
+---
